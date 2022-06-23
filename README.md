@@ -36,16 +36,16 @@ https://plugins.jetbrains.com/plugin/19316-rancher
 
 Operation screenshot
 
-![image-20220623101953105](Rancher plugin.assets/image-20220623101953105.png)
+![image-20220623101953105](assets/image-20220623101953105.png)
 
 
 
-![image-20220623101928285](Rancher plugin.assets/image-20220623101928285.png)
+![image-20220623101928285](assets/image-20220623101928285.png)
 
 
 
-![image-20220623101159975](Rancher plugin.assets/image-20220623101159975.png)
+![image-20220623101159975](assets/image-20220623101159975.png)
 
 
 
-![image-20220623102727662](Rancher plugin.assets/image-20220623102727662.png)
+![image-20220623102727662](assets/image-20220623102727662.png)
