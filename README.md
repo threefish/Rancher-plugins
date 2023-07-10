@@ -35,9 +35,9 @@ https://plugins.jetbrains.com/plugin/19316-rancher
 
 ##### For example, under the linux
 
-- 下载 https://dl.k8s.io/release/v1.27.3/bin/darwin/arm64/kubectl 将其保存到 $PATH 目录下（终端中执行可查看对应目录：echo $PATH）
+- download https://dl.k8s.io/release/v1.27.3/bin/darwin/arm64/kubectl Save it to the PATH directory (execute in the terminal to view the corresponding directory: echo PATH)
 
-- 在https://github.com/rancher/cli/releases 下载页面中下载对应的rancher可执行文件，同样将其保存到 $PATH 目录下
+- https://github.com/rancher/cli/releases Download the corresponding ranger executable file from the download page and also save it in the PATH directory
 
 #### Operation screenshot
 
