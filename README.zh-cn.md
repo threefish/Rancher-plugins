@@ -41,6 +41,32 @@ https://plugins.jetbrains.com/plugin/19316-rancher
 
 - 在https://github.com/rancher/cli/releases 下载页面中下载对应的rancher可执行文件，同样将其保存到 $PATH 目录下
 
+
+### 例如macos环境下
+
+```
+mkdir -p /usr/local/bin
+cd /usr/local/bin
+# 删除旧文件，请自己备份.Delete old files and back them up yourself
+rm -rf  rancher
+rm -rf  kubectl
+
+
+curl -LO https://github.com/rancher/cli/releases/download/v2.6.11/rancher-darwin-amd64-v2.6.11.tar.gz
+tar zxvf rancher-darwin-amd64-v2.6.11.tar.gz
+cp rancher-v2.6.11/rancher ./
+rm -rf rancher-darwin-amd64-v2.6.11.tar.gz
+
+##  for MACOS intel CPU
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl"
+## for Apple Silicon CPU
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/arm64/kubectl"
+
+## 重启一下
+reboot
+```
+
+
 #### 操作截图
 
 ![image-20220623101953105](assets/image-20220623101953105.png)
