@@ -42,11 +42,12 @@ https://plugins.jetbrains.com/plugin/19316-rancher
 - 在https://github.com/rancher/cli/releases 下载页面中下载对应的rancher可执行文件，同样将其保存到 $PATH 目录下
 
 
-### 例如macos环境下
+##### 例如macos环境下
 
 ```
 mkdir -p /usr/local/bin
 cd /usr/local/bin
+# 将 /usr/local/bin 添加到 path 环境变量中 ，参考 https://stackoverflow.com/questions/11025980/how-to-add-usr-local-bin-in-path-on-mac
 # 删除旧文件，请自己备份.Delete old files and back them up yourself
 rm -rf  rancher
 rm -rf  kubectl
