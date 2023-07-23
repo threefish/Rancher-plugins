@@ -40,11 +40,14 @@ https://plugins.jetbrains.com/plugin/19316-rancher
 - https://github.com/rancher/cli/releases Download the corresponding ranger executable file from the download page and also save it in the PATH directory
 
 
-### For example,under the macos
+##### For example,under the macos
 
 ```
 mkdir -p /usr/local/bin
 cd /usr/local/bin
+
+# Add /usr/local/bin to the path ，you can see https://stackoverflow.com/questions/11025980/how-to-add-usr-local-bin-in-path-on-mac
+
 # 删除旧文件，请自己备份.Delete old files and back them up yourself
 rm -rf  rancher
 rm -rf  kubectl
